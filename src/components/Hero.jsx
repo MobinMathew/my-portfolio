@@ -49,14 +49,13 @@ export default function Hero() {
     <section
       ref={container}
       id="home"
-      className="min-h-screen flex items-center justify-center px-8"
+      className="min-h-screen flex items-center justify-center px-6 md:px-8 py-20 md:py-0"
     >
-      <div className="max-w-7xl w-full grid md:grid-cols-2 gap-16 items-center">
+      <div className="max-w-7xl w-full grid md:grid-cols-2 gap-12 md:gap-16 items-center">
 
         {/* ================= LEFT SIDE ================= */}
         <div>
 
-          
           <h1
             ref={title}
             className="text-5xl md:text-7xl lg:text-8xl font-black text-white leading-tight"
@@ -101,26 +100,26 @@ export default function Hero() {
             ref={buttons}
             className="mt-10 flex gap-5 flex-wrap"
           >
-          <a
-            href="#projects"
-            className="bg-cyan-500 text-black px-7 py-3 rounded-xl font-bold hover:scale-105 transition duration-300 inline-block">
-           View Projects
-          </a>
             <a
-              href ={CV}
-              className="border border-cyan-500 px-7 py-3 rounded-xl
-              hover:bg-cyan-500 hover:text-black transition duration-300"
+              href="#projects"
+              className="bg-cyan-500 text-black px-7 py-3 rounded-xl font-bold hover:scale-105 transition duration-300 inline-block"
+            >
+              View Projects
+            </a>
+
+            <a
+              href={CV}
+              className="border border-cyan-500 px-7 py-3 rounded-xl hover:bg-cyan-500 hover:text-black transition duration-300"
             >
               Download CV
             </a>
           </div>
-
         </div>
 
-        {/* ================= RIGHT SIDE ================= */}
-        <div className="hidden md:flex justify-center items-center">
+        {/* ================= RIGHT SIDE / PROFILE ================= */}
+        <div className="flex justify-center items-center mt-8 md:mt-0">
 
-          <div className="hero-photo-container">
+          <div className="hero-photo-container scale-75 sm:scale-90 md:scale-100">
 
             {/* Glow behind photo */}
             <div className="hero-photo-glow"></div>
