@@ -3,7 +3,7 @@ import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { TypeAnimation } from "react-type-animation";
 import profileImage from "../assets/profile.jpg";
-import CV from "../assets/CopyMobinEditedCV.pdf";
+import CV from "../assets/MOBIN_MATHEW_CV.pdf";
 
 gsap.registerPlugin(useGSAP);
 
@@ -49,7 +49,7 @@ export default function Hero() {
     <section
       ref={container}
       id="home"
-      className="min-h-screen flex items-center justify-center px-6 md:px-8 py-20 md:py-0"
+      className="min-h-screen flex items-center justify-center px-6 md:px-8 pt-24 md:pt-0"
     >
       <div className="max-w-7xl w-full grid md:grid-cols-2 gap-12 md:gap-16 items-center">
 

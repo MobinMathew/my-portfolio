@@ -6,7 +6,7 @@ import {
   FaMapMarkerAlt,
   FaDownload,
 } from "react-icons/fa";
-import CV from "../assets/CopyMobinEditedCV.pdf";
+import CV from "../assets/MOBIN_MATHEW_CV.pdf";
 
 export default function Contact() {
   return (
